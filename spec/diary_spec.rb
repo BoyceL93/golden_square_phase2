@@ -21,7 +21,7 @@ RSpec.describe DiaryEntry do
         expect(result).to eq "dear god help me"
     end
 
-    it "calulates reading time" do
+    it "calculates reading time" do
         diary_entry = DiaryEntry.new('flangle', 'dear god help me I am dying here')
         result = diary_entry.reading_time(4)
         expect(result).to eq 2
